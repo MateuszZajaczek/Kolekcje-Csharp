@@ -1,4 +1,16 @@
-﻿namespace Kolekcje_Csharp
+﻿/*
+    Dla problemu nr 1 Słownik
+
+    Dla problemu nr 2 Lista
+
+    Dla problemu nr 3 Słownik
+
+    Dla problemu nr 4 Lista 
+
+    Dla problemu nr 5 Słownik
+
+*/
+namespace Kolekcje_Csharp
 {
     using System;
     using System.Collections.Generic;
