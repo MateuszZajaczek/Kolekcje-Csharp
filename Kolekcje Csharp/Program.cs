@@ -26,11 +26,11 @@ namespace Kolekcje_Csharp
 
             var phonebook = new Dictionary<string, Tuple<string, string, string>>();
 
-            // Dodawanie nowych wpisów do książki telefonicznej
+            // Dodawanie nowych osób do książki telefonicznej
             phonebook.Add("432-456-992", Tuple.Create("Jan", "Kowalski", "Warszawa"));
             phonebook.Add("098-765-4321", Tuple.Create("Anna", "Nowak", "Kraków"));
 
-            // Wyszukiwanie wpisu po numerze telefonu
+            // Wyszukiwanie po numerze telefonu
             var phoneNumber = "432-456-992";
             if (phonebook.TryGetValue(phoneNumber, out var contact))
             {
@@ -68,7 +68,7 @@ namespace Kolekcje_Csharp
             }
             if (!found)
             {
-                Console.WriteLine("Nie znaleziono wpisu dla podanej osoby.");
+                Console.WriteLine("Nie znaleziono");
             }
             Console.WriteLine("\n\n");
 
@@ -121,6 +121,9 @@ namespace Kolekcje_Csharp
 
         }
 
+
+// Metody do zadania 4
+
         static void Task1()
         {
             Console.WriteLine("zad 1");
@@ -151,6 +154,7 @@ namespace Kolekcje_Csharp
 
 
     }
+// Klasa do zadania 5
 
     class ComputerEquipment
     {
@@ -166,6 +170,10 @@ namespace Kolekcje_Csharp
         }
 
     }
+
+// Klasa do zadania 3
+
+
     class Student
     {
         public string Name { get; set; }
